@@ -55,7 +55,6 @@ public class LoginServlet extends BaseBackServlet {
 		User admin = new User();
 		request.getSession().setAttribute("admin", admin);
 		
-//		return "@admin_category_list";
 		return "@admin";
 	}
 	

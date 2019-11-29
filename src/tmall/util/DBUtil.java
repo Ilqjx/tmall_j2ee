@@ -29,8 +29,4 @@ public class DBUtil {
 		return DriverManager.getConnection(url, loginName, password);
 	}
 	
-//	public static void main(String[] args) throws SQLException {
-//		System.out.println(getConnection());
-//	}
-	
 }
