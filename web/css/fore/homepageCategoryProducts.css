@@ -20,6 +20,10 @@ div.homepageCategoryProducts div.eachHomepageCategoryProducts div.productItem {
     cursor: pointer;
 }
 
+div.homepageCategoryProducts div.eachHomepageCategoryProducts div.productItem:hover {
+    border-color: #c40000;
+}
+
 div.homepageCategoryProducts div.eachHomepageCategoryProducts div.productItem a img {
     width: 187px;
     height: 190px;
